@@ -6,6 +6,6 @@ git clone https://github.com/SelynCatto/rising_device_google_gs101 ./device/goog
 rm -rf device/google/gs-common
 git clone https://github.com/SelynCatto/rising_device_google_gs-common ./device/google/gs-common -b lineage-22.0
 rm -rf device/google/bluejay-kernels/5.10
-git clone https://android.googlesource.com/device/google/bluejay-kernels/5.10 ./device/google/bluejay-kernels/5.10 -b android-15.0.0_r2
+git clone https://android.googlesource.com/device/google/bluejay-kernels/5.10 ./device/google/bluejay-kernels/5.10 -b android-15.0.0_r4
 rm -rf vendor/google/bluejay
 git clone https://github.com/SelynCatto/rising_vendor_google_bluejay ./vendor/google/bluejay -b lineage-22.0
