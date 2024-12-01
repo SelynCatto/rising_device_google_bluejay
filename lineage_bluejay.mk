@@ -43,6 +43,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingChipset="Google Tensor" \
     RisingMaintainer="Selyn"
 
+# PixelParts
+include packages/apps/PixelParts/device.mk
+
 # GMS
 WITH_GMS := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := true

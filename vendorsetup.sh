@@ -9,3 +9,5 @@ rm -rf device/google/bluejay-kernels/5.10
 git clone https://android.googlesource.com/device/google/bluejay-kernels/5.10 ./device/google/bluejay-kernels/5.10 -b android-15.0.0_r4
 rm -rf vendor/google/bluejay
 git clone https://github.com/SelynCatto/rising_vendor_google_bluejay ./vendor/google/bluejay -b lineage-22.0
+rm -rf packages/apps/PixelParts
+git clone https://github.com/Evolution-X-Devices/packages_apps_PixelParts packages/apps/PixelParts
